@@ -1,0 +1,25 @@
+/* ====== H E A D E R ===== */
+#header {
+  height: 8rem;
+  nav.navbar {
+    z-index: 100;
+  }
+
+  .navbar-nav > .nav-item > .nav-link {
+    color: white;
+  }
+  .navbar-nav > .nav-item > .nav-link:hover {
+    border: 0.2rem solid rgb(10, 199, 232);
+    border-radius: 0.5rem;
+  }
+
+  a.navbar-brand {
+    .header__logo {
+      width: 6rem;
+    }
+    .header__nombre-logo {
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  }
+}

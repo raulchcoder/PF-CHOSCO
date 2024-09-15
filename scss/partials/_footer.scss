@@ -1,0 +1,33 @@
+/* ====== F O O T E R ====== */
+#footer {
+  /* margin-top: calc(100vh - 16rem); */
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  padding: 1rem 0;
+  /* margin-bottom: 0; */
+  color: white;
+  i {
+    color: black;
+  }
+  .footer__logo {
+    width: 6rem;
+  }
+}
+
+#footer {
+  .footer__link {
+    font-size: 20px;
+    margin: 0 1rem;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  .footer__link--facebook i {
+    color: rgb(59, 59, 171);
+  }
+
+  .footer__link--youtube i {
+    color: red;
+  }
+}
