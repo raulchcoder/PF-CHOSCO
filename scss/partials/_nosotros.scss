@@ -1,5 +1,16 @@
 /* ====== N O S O T R O S ======= */
 
+.nosotros__galeria {
+  img {
+    transition-property: transform;
+    transition-duration: 300ms;
+    &:hover {
+      // transform: rotate(-4deg) scale(1.2);
+      transform: scale(1.1);
+    }
+  }
+}
+
 @media (width >= 768px) {
   .br-md-left {
     border-top-left-radius: 1rem;
